@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+GreenForAll.Rproj
+.DS_Store
+
+Data/*
