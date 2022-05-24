@@ -13,8 +13,8 @@ library(grid)
 library(gridExtra)
 
 ## Load in data
-co_2021_boundary <- st_read("Data/co_cong_adopted_2021/2021_Approved_Congressional_Plan_w_Final_Adjustments.shp")
-co_2020_boundary <- st_read("Data/co_cvap_2020_cd/co_cvap_2020_cd.shp")
+co_2021_boundary <- st_read("Data/Colorado/co_cong_adopted_2021/2021_Approved_Congressional_Plan_w_Final_Adjustments.shp")
+co_2020_boundary <- st_read("Data/Colorado/co_cvap_2020_cd/co_cvap_2020_cd.shp")
 st_geometry_type(co_2021_boundary)
 st_geometry_type(co_2020_boundary)
 
